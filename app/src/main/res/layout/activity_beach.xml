@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.divi.nitk_app.beach">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Beach"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textStyle="bold"
+
+                android:id="@+id/textView"
+                android:layout_marginRight="54dp"
+                android:layout_marginEnd="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView"
+                android:textColor="#ff8d7aff" />
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/beach"
+                android:scaleType="fitStart"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="0dp"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:text="NITK has its own private beach at the shores of Arabian Sea with a light house adjoining to it.Students and staff spend pretty happy moments here and apprize the beauty of sunset everyday.\n\nThe light house is another major attraction here,situated on the shores of this beach.The top of the lighthouse gives the most magnificent view of the entire city and is a wonderful sight."
+                android:textSize="20dp"
+android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:layout_alignBottom="@+id/scrollView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@android:color/black"
+                 />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.divi.nitk_app.Sja">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silver Jubilee Auditorium"
+        android:textSize="22dp"
+        android:textAllCaps="true"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sja"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SJA is a huge auditorium that regularly hosts major events of NITK.\n\n The SJA has a capacity of around 1000. It is well ventilated and also has a balcony housing.\n\nThe building is centrally located in the campus just adjacent to Physics/Chemistry Dept."
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"/>
+
+   </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

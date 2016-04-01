@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nitk_app</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_beach">beach</string>
+    <string name="title_activity_facility_options">Facility_options</string>
+    <string name="title_activity_pool">Pool</string>
+    <string name="title_activity_sports">Sports</string>
+    <string name="title_activity_sja">Sja</string>
+    <string name="title_activity_sac">Sac</string>
+    <string name="title_activity_hcc">HCC</string>
+    <string name="title_activity_shopping_complex">ShoppingComplex</string>
+</resources>

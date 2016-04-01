@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.divi.nitk_app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.Map" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".beach"
+            android:label="@string/title_activity_beach" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.beach" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Facility_options"
+            android:label="@string/title_activity_facility_options" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.Facility_options" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pool"
+            android:label="@string/title_activity_pool" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.Pool" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sports"
+            android:label="@string/title_activity_sports" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.Sports" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sja"
+            android:label="@string/title_activity_sja" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.Sja" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sac"
+            android:label="@string/title_activity_sac" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.Sac" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".HCC"
+            android:label="@string/title_activity_hcc" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.HCC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ShoppingComplex"
+            android:label="@string/title_activity_shopping_complex" >
+            <intent-filter>
+                <action android:name="com.example.divi.nitk_app.ShoppingComplex" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

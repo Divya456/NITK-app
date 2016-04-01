@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.divi.nitk_app.HCC">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health Care Center"
+                android:id="@+id/textView"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hcc"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="26dp"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-medium"
+                android:text="Medical facilities are provided to staff and students through the HCC with a well-equipped 24*7 ambulance facility located within the campus.\n\nHCC has a laboratory for the basic diagnosis.\n\nApart from medical officers visiting specialists like Dentist,Orthopaedician,ENT,Paediatrician etc visit the OPD for the better health check-up of residents."
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
